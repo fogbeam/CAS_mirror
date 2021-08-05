@@ -785,6 +785,16 @@
   name: "cas.server.tomcat.http.protocol"
   defaultValue: "org.apache.coyote.http11.Http11NioProtocol"
 - module: "cas-server-webapp-tomcat"
+  owner: "org.apereo.cas.configuration.model.core.web.tomcat.CasEmbeddedApacheTomcatHttpProperties"
+  type: "java.lang.Integer"
+  description: "If this Connector is supporting non-SSL requests, this will automatically\
+    \ redirect the request to the port number specified here. Matching security constraints\
+    \ that require SSL transport will be auto-defined."
+  shortDescription: "If this Connector is supporting non-SSL requests, this will automatically\
+    \ redirect the request to the port number specified here."
+  name: "cas.server.tomcat.http.redirect-port"
+  defaultValue: 0
+- module: "cas-server-webapp-tomcat"
   owner: "org.apereo.cas.configuration.model.core.web.tomcat.CasEmbeddedApacheTomcatRemoteAddressProperties"
   type: "java.lang.String"
   description: "A regular expression (using java.util.regex) that the remote client's\
