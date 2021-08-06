@@ -135,7 +135,7 @@
     \ ANY}: Skip hostname verification and allow all.</li></ul>"
   shortDescription: "Hostname verification options."
   name: "cas.authn.mfa.gauth.ldap.hostname-verifier"
-  defaultValue: true
+  defaultValue: "DEFAULT"
 - duration: true
   module: "cas-server-support-gauth-ldap"
   owner: "org.apereo.cas.configuration.model.support.mfa.gauth.LdapGoogleAuthenticatorMultifactorProperties"

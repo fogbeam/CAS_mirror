@@ -134,7 +134,7 @@
     \ ANY}: Skip hostname verification and allow all.</li></ul>"
   shortDescription: "Hostname verification options."
   name: "cas.consent.ldap.hostname-verifier"
-  defaultValue: true
+  defaultValue: "DEFAULT"
 - duration: true
   module: "cas-server-support-consent-ldap"
   owner: "org.apereo.cas.configuration.model.support.consent.LdapConsentProperties"
@@ -386,7 +386,7 @@
     \ EDirectory.</li></ul>"
   shortDescription: "Type of LDAP directory."
   name: "cas.consent.ldap.type"
-  defaultValue: true
+  defaultValue: ""
 - module: "cas-server-support-consent-ldap"
   owner: "org.apereo.cas.configuration.model.support.consent.LdapConsentProperties"
   type: "java.lang.Boolean"

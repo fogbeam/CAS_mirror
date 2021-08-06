@@ -77,7 +77,7 @@
   shortDescription: "Setting that describes how Lettuce routes read operations to\
     \ replica nodes."
   name: "cas.authn.saml-idp.metadata.redis.read-from"
-  defaultValue: "PT10S"
+  defaultValue: ""
 - duration: true
   module: "cas-server-support-saml-idp-metadata-redis"
   owner: "org.apereo.cas.configuration.model.support.saml.idp.metadata.RedisSamlMetadataProperties"

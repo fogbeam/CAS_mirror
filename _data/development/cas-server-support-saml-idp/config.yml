@@ -126,7 +126,7 @@
     \ as part of SAML flows and requests that are kept by the container http session,\
     \ local storage, or should be replicated across the cluster."
   name: "cas.authn.saml-idp.core.session-storage-type"
-  defaultValue: "https://cas.example.org/idp"
+  defaultValue: "HTTP"
 - module: "cas-server-support-saml-idp"
   owner: "org.apereo.cas.configuration.model.support.saml.idp.SamlIdPLogoutProperties"
   type: "java.lang.Boolean"
@@ -356,7 +356,7 @@
   shortDescription: "Indicate the encoding type of the credential used when rendering\
     \ the saml response."
   name: "cas.authn.saml-idp.response.credential-type"
-  defaultValue: "uri"
+  defaultValue: "X509"
 - module: "cas-server-support-saml-idp"
   owner: "org.apereo.cas.configuration.model.support.saml.idp.SamlIdPResponseProperties"
   type: "java.lang.String"

@@ -27,4 +27,4 @@
     \ on disk.</li></ul>"
   shortDescription: "Indicates the replication mode."
   name: "cas.service-registry.stream.replication-mode"
-  defaultValue: true
+  defaultValue: "ACTIVE_PASSIVE"

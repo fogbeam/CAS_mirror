@@ -174,7 +174,7 @@
     \ ANY}: Skip hostname verification and allow all.</li></ul>"
   shortDescription: "Hostname verification options."
   name: "cas.authn.spnego.ldap.hostname-verifier"
-  defaultValue: true
+  defaultValue: "DEFAULT"
 - duration: true
   module: "cas-server-support-spnego-webflow"
   owner: "org.apereo.cas.configuration.model.support.spnego.SpnegoLdapProperties"

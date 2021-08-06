@@ -73,7 +73,7 @@
     \ of the recaptcha API.</li><li>{@code HCAPTCHA}: hCaptcha.</li></ul>"
   shortDescription: "Indicate the version of the recaptcha api."
   name: "cas.authn.pm.forgot-username.google-recaptcha.version"
-  defaultValue: "0.5"
+  defaultValue: "GOOGLE_RECAPTCHA_V2"
 - required: true
   module: "cas-server-support-captcha"
   owner: "org.apereo.cas.configuration.model.support.captcha.GoogleRecaptchaProperties"
@@ -148,7 +148,7 @@
     \ of the recaptcha API.</li><li>{@code HCAPTCHA}: hCaptcha.</li></ul>"
   shortDescription: "Indicate the version of the recaptcha api."
   name: "cas.authn.pm.google-recaptcha.version"
-  defaultValue: "0.5"
+  defaultValue: "GOOGLE_RECAPTCHA_V2"
 - required: true
   module: "cas-server-support-captcha"
   owner: "org.apereo.cas.configuration.model.support.captcha.GoogleRecaptchaProperties"
@@ -223,4 +223,4 @@
     \ of the recaptcha API.</li><li>{@code HCAPTCHA}: hCaptcha.</li></ul>"
   shortDescription: "Indicate the version of the recaptcha api."
   name: "cas.google-recaptcha.version"
-  defaultValue: "0.5"
+  defaultValue: "GOOGLE_RECAPTCHA_V2"
