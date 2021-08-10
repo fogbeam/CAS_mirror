@@ -516,7 +516,7 @@
   shortDescription: "Whether v2 protocol support should be forward compatible to act\
     \ like v3 and match its response, mainly for attribute release."
   name: "cas.view.cas2.v3-forward-compatible"
-  defaultValue: false
+  defaultValue: true
 - module: "cas-server-core-web"
   owner: "org.apereo.cas.configuration.model.core.web.view.Cas30ViewProperties"
   type: "org.apereo.cas.configuration.model.core.web.view.Cas30ViewProperties$ValidationAttributesRendererTypes"
