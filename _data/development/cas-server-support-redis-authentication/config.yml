@@ -183,7 +183,7 @@
   shortDescription: "Setting that describes how Lettuce routes read operations to\
     \ replica nodes."
   name: "cas.authn.redis.read-from"
-  defaultValue: "PT10S"
+  defaultValue: ""
 - duration: true
   module: "cas-server-support-redis-authentication"
   owner: "org.apereo.cas.configuration.model.support.redis.RedisAuthenticationProperties"

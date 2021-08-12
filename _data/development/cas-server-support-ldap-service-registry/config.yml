@@ -126,7 +126,7 @@
     \ ANY}: Skip hostname verification and allow all.</li></ul>"
   shortDescription: "Hostname verification options."
   name: "cas.service-registry.ldap.hostname-verifier"
-  defaultValue: true
+  defaultValue: "DEFAULT"
 - module: "cas-server-support-ldap-service-registry"
   owner: "org.apereo.cas.configuration.model.support.ldap.serviceregistry.LdapServiceRegistryProperties"
   type: "java.lang.String"

@@ -289,7 +289,7 @@
     \ ANY}: Skip hostname verification and allow all.</li></ul>"
   shortDescription: "Hostname verification options."
   name: "cas.authn.x509.ldap.hostname-verifier"
-  defaultValue: true
+  defaultValue: "DEFAULT"
 - duration: true
   module: "cas-server-support-x509-webflow"
   owner: "org.apereo.cas.configuration.model.support.x509.X509LdapProperties"
@@ -645,7 +645,7 @@
     \ otherName).</li><li>{@code SUBJECT_DN}: Create principal by subject DN.</li></ul>"
   shortDescription: "Indicates the type of principal resolution for X509."
   name: "cas.authn.x509.principal-type"
-  defaultValue: "MAX_VALUE"
+  defaultValue: "SUBJECT_DN"
 - module: "cas-server-support-x509-webflow"
   owner: "org.apereo.cas.configuration.model.support.x509.X509Properties"
   type: "java.lang.Integer"

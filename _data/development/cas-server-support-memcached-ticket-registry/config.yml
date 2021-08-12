@@ -158,7 +158,7 @@
     \ in the first byte of the value.</li></ul>"
   shortDescription: "Indicate the transcoder type."
   name: "cas.ticket.registry.memcached.transcoder"
-  defaultValue: true
+  defaultValue: "KRYO"
 - module: "cas-server-support-memcached-ticket-registry"
   owner: "org.apereo.cas.configuration.model.support.memcached.MemcachedTicketRegistryProperties"
   type: "java.lang.Integer"
