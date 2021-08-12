@@ -116,7 +116,7 @@ The CAS project generally operates based on its own [maintenance policy](https:/
 
 ## How do I get on the roadmap?
 
-By simply delivering the change and having it get merged into the codebase relevant branches. There is no predefined roadmap for the project. Work items get completed based on the community's availability, interest, time and money. **The roadmap is what you intend to work on.**
+By simply delivering the change and having it get merged into the codebase relevant branches. There is no predefined roadmap for the project. Work items get completed based on the community's availability, interest, time and money. The roadmap is the item **you** intend to work on, build and ultimately deliver to the project as a pull request.
 
 ## Are there plans to...?
 
